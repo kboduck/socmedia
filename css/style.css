@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'jura';
+    src: url('../fonts/Jura-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'juralight';
+    src: url('../fonts/Jura-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../img/fon.png");
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.logo_big {
+    position: relative;
+    top: 263px;
+    left: 277px;
+    margin-bottom: 100px;
+}
+
+.litera {
+    position: relative;
+    top: -223px;
+    left: 103px;
+    width: 117px;
+    height: 162px;
+}
+
+.litera:hover {
+    background-image: url("../img/s.png");
+}
+
+.select {
+    position: absolute;
+    top: 685px;
+    left: 515px;
+}
+
+.label_2 {
+    position: relative;
+    left: 328px;
+    top: -36px;
+    font-family: 'jura', normal;
+    font-size: 12px;
+}
+
+.social {
+    position: absolute;
+    top: 720px;
+    left: 18px;
+    width: 10px;
+    margin-top: 10px;
+}
+
+link {
+    position: absolute;
+    top: 720px;
+    left: 18px;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.phone {
+    position: relative;
+    top: -59px;
+    left: 1190px;
+    font-family: 'juralight', normal;
+    font-size: 12px;
+}
+
+.line {
+    position: relative;
+    top: -200px;
+}
+
+.copyring {
+    position: relative;
+    top: -170px;
+    font-family: 'juralight', normal;
+    font-size: 10px;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: tb-rl;
+}
+
+.line1 {
+    position: relative;
+    left: 1060px;
+    top: -50px;
+    height: 2px;
+    width: 60px;
+    border-top: 1px solid black;
+    padding-left: 10px;
+}
+
+.menu {
+    position: relative;
+    left: 1337px;
+    top: -18px;
+}
+
+.lang1 {
+    position: relative;
+    left: 1200px;
+    top: 12px;
+    font-family: 'jura', normal;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.lang2 {
+    position: relative;
+    left: 1285px;
+    top: -4px;
+    font-family: 'jura', normal;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.line2 {
+    position: relative;
+    left: 1230px;
+    top: 4px;
+    height: 2px;
+    width: 30px;
+    border-top: 1px solid black;
+    padding-left: 10px;
+}
+
+.arrows {
+    position: relative;
+    left: 1220px;
+    top: -311px;
+    height: 150px;
+    width: 150px;
+}
+
+.slick-dots li button {
+    position: relative;
+    left: 30px;
+    padding: 0;
+    margin-right: -0.1em;
+    border: 0;
+    font-size: 0;
+    width: 40px;
+    border-top: 1px solid black;
+    padding-left: 10px;
+}
+
+.slick-dots .slick-active button {
+    width: 70px;
+    left: 0px;
+}
+
+.counter {
+    position: relative;
+    top: -292px;
+    left: 1210px;
+    font-family: 'jura', normal;
+    font-size: 12px;
+}
